@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3AF4AA3E-F566-4644-81F9-AEE300C04576}" SchemaVersion="80">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{3AF4AA3E-F566-4644-81F9-AEE300C04576}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{A92224BB-73E7-4E46-89B5-EC6CEEAE9250}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="mx_main_menu" ID="{E331D739-6BA5-44C4-BBF0-58819022AB56}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="level_01" ID="{D02F3346-7D6F-42EA-92BE-558E98B45C22}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mx_start_game" ID="{6FE756C3-C251-4B4F-917C-BA8389317D5F}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="mx_game_end" ID="{5D7E1FAF-9F5F-4CC1-858E-E9737124E5E9}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="percentage_of_time_left" ID="{FF69CCBD-BFB2-4A28-94C3-2FD1AEDEC288}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

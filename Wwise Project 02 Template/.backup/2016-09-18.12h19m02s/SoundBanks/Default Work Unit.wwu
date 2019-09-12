@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C92A1990-D68B-4F63-8008-1E04EF8D4115}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C92A1990-D68B-4F63-8008-1E04EF8D4115}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Game_SoundBank" ID="{3062BFB6-D581-41E6-828D-9A1C280884F6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="reset_time_remaining" ID="{7CCE9319-340A-4649-9393-E384092D35B4}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="mx_main_menu" ID="{E331D739-6BA5-44C4-BBF0-58819022AB56}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_special_match" ID="{E31AC142-D347-4926-90FB-A53E45EE7F41}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_incorrect_move" ID="{EEECF06E-278D-4D7E-AFA1-EEFA58EEE526}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="mx_game_end" ID="{5D7E1FAF-9F5F-4CC1-858E-E9737124E5E9}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_tile_drop" ID="{E59DBEBB-65FE-4793-B112-11D2A508BCB1}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="mx_start_game" ID="{6FE756C3-C251-4B4F-917C-BA8389317D5F}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_match" ID="{1675D0EC-14DD-4999-8D76-6BAE3A6B9607}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_move_tile" ID="{F77734F1-B7A2-4C43-B2DA-15E0BD3B09AC}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

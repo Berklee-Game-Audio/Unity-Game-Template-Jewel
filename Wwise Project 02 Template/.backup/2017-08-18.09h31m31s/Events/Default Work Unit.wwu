@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="mx_main_menu" ID="{E331D739-6BA5-44C4-BBF0-58819022AB56}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{B29B1696-4848-4160-968C-75C3AC1295D8}" ShortID="702019919" Type="Stop" Scope="All" Global="false"/>
+						<Action Name="Play" ID="{C59CFFE6-B562-415D-A003-260F85DC6A71}" ShortID="813235294" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1677B8D0-68DC-4738-B918-DC97845E2668}" Global="false">
+									<ObjectRef Name="menu_music_playlist" ID="{6B1B76BA-1A24-48ED-A406-7BAF69946A21}" WorkUnitID="{79F5F9A7-407F-49C4-AAE5-4174E8FE363E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_start_game" ID="{6FE756C3-C251-4B4F-917C-BA8389317D5F}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{8F802C03-8992-4BCA-9605-CCDACB7157FD}" ShortID="367089285" Type="Stop" Scope="All" Global="false"/>
+						<Action Name="Play" ID="{A901D8C7-ABD0-4EE4-BB91-5AE34F1FEAE8}" ShortID="379912796" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A21F4A36-522A-4FAE-BA18-9196C5639C6E}" Global="false">
+									<ObjectRef Name="game_music_playlist" ID="{3B588F59-985A-4822-937B-E0FF7034D325}" WorkUnitID="{79F5F9A7-407F-49C4-AAE5-4174E8FE363E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="mx_game_end" ID="{5D7E1FAF-9F5F-4CC1-858E-E9737124E5E9}"/>
+				<Event Name="sfx_move_tile" ID="{F77734F1-B7A2-4C43-B2DA-15E0BD3B09AC}">
+					<ChildrenList>
+						<Action Name="Play" ID="{971AB047-A7CA-41D6-9400-A6BF4C738DC6}" ShortID="265783064" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3FB5EDC0-7741-4B41-B69A-6FBAA19B329A}" Global="false">
+									<ObjectRef Name="move_tile" ID="{E3BD3701-6C6A-4057-8FE4-7C9BBE66C18D}" WorkUnitID="{1B1F507F-21CA-4B4C-B8E1-F5C075751DF5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_match" ID="{1675D0EC-14DD-4999-8D76-6BAE3A6B9607}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C7B6B0FB-EBED-4376-AA1C-4B1856754692}" ShortID="138298072" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D2370B03-822C-40B1-B417-7EF616D77122}" Global="false">
+									<ObjectRef Name="match" ID="{279E4A8E-5581-44F4-8D0B-E030138ABD64}" WorkUnitID="{1B1F507F-21CA-4B4C-B8E1-F5C075751DF5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_special_match" ID="{E31AC142-D347-4926-90FB-A53E45EE7F41}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FAC2CBAC-909F-49A7-9D65-2D3E94306F2E}" ShortID="109113975" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{473D5B78-9FC4-4CEE-A303-1C9514536387}" Global="false">
+									<ObjectRef Name="special_match" ID="{52950104-F556-4560-8396-7794B5FE4F7E}" WorkUnitID="{1B1F507F-21CA-4B4C-B8E1-F5C075751DF5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_incorrect_move" ID="{EEECF06E-278D-4D7E-AFA1-EEFA58EEE526}">
+					<ChildrenList>
+						<Action Name="Play" ID="{ED3672A0-2893-4CD4-BBA2-960981E4F354}" ShortID="451498388" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BA3AAFB8-FEFF-48FC-9D04-5E18C65E96C0}" Global="false">
+									<ObjectRef Name="incorrect_move" ID="{11F748DF-41D1-46CE-8E94-DF6763A7B510}" WorkUnitID="{1B1F507F-21CA-4B4C-B8E1-F5C075751DF5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_tile_drop" ID="{E59DBEBB-65FE-4793-B112-11D2A508BCB1}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CA13E230-8A7E-430A-995E-E9707F213950}" ShortID="731296581" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{885B5CC8-CE70-4402-A111-32305A2FF493}" Global="false">
+									<ObjectRef Name="tile_drop" ID="{5A0EBE95-E5DB-47E2-BFDA-F17DEF0BD700}" WorkUnitID="{1B1F507F-21CA-4B4C-B8E1-F5C075751DF5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="reset_time_remaining" ID="{7CCE9319-340A-4649-9393-E384092D35B4}">
+					<ChildrenList>
+						<Action Name="Set Game Parameter" ID="{5671A1C7-7FDC-4B58-9FB2-F25F3145B56F}" ShortID="125444490" Type="SetGameParameter" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A1BD523A-3F26-482C-A4B7-D00A5A6B7D2E}" Global="false">
+									<ObjectRef Name="percentage_of_time_left" ID="{FF69CCBD-BFB2-4A28-94C3-2FD1AEDEC288}" WorkUnitID="{A3665AC0-E497-4438-949D-CFAAF145E929}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_clock_tick" ID="{EF21B323-7747-4730-BD74-E405A9E13296}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0BE737B9-3054-4654-9C25-F621773925E2}" ShortID="1037466505" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{7C262B42-ECBE-4139-96AE-340F3330E76A}" Global="false">
+									<ObjectRef Name="Clock Tick" ID="{1079D753-B617-4D48-A802-AFB2D3E060A0}" WorkUnitID="{1B1F507F-21CA-4B4C-B8E1-F5C075751DF5}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

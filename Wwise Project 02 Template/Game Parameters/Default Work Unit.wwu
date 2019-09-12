@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A3665AC0-E497-4438-949D-CFAAF145E929}" SchemaVersion="80">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{A3665AC0-E497-4438-949D-CFAAF145E929}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="percentage_of_time_left" ID="{FF69CCBD-BFB2-4A28-94C3-2FD1AEDEC288}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

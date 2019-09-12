@@ -1,0 +1,39 @@
+Event	ID	Name			Wwise Object Path	Notes
+	71291836	sfx_special_match			\Default Work Unit\sfx_special_match	
+	386533466	sfx_incorrect_move			\Default Work Unit\sfx_incorrect_move	
+	987635873	level_01			\Default Work Unit\level_01	
+	987635874	level_02			\Default Work Unit\level_02	
+	987635875	level_03			\Default Work Unit\level_03	
+	987635876	level_04			\Default Work Unit\level_04	
+	987635877	level_05			\Default Work Unit\level_05	
+	987635878	level_06			\Default Work Unit\level_06	
+	987635879	level_07			\Default Work Unit\level_07	
+	987635880	level_08			\Default Work Unit\level_08	
+	987635881	level_09			\Default Work Unit\level_09	
+	1241545894	sfx_big_swipe			\Default Work Unit\sfx_big_swipe	
+	1542319017	mx_game_end			\Default Work Unit\mx_game_end	
+	1573519608	sfx_match			\Default Work Unit\sfx_match	
+	1754383523	reset_time_remaining			\Default Work Unit\reset_time_remaining	
+	2095104675	sfx_tile_drop			\Default Work Unit\sfx_tile_drop	
+	2104042053	sfx_move_tile			\Default Work Unit\sfx_move_tile	
+	2131465915	sfx_clock_tick			\Default Work Unit\sfx_clock_tick	
+	2686574032	sfx_vertical_swipe			\Default Work Unit\sfx_vertical_swipe	
+	2694681644	mx_main_menu			\Default Work Unit\mx_main_menu	
+	2768562958	sfx_horizontal_swipe			\Default Work Unit\sfx_horizontal_swipe	
+	3177518892	mx_start_game			\Default Work Unit\mx_start_game	
+	3194594715	sfx_new_candy			\Default Work Unit\sfx_new_candy	
+	3529699226	sfx_hint			\Default Work Unit\sfx_hint	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124010099	3	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\3_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\tile_drop\3		30052
+	376810140	incorrect_move	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\Wrong Move_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\incorrect_move		33092
+	470812874	loop_end	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\loop_end_9452F465.wem		\Interactive Music Hierarchy\Default Work Unit\loop_end\loop_end		269368
+	593276069	Clock Tick	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\Clock Tick_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\Clock Tick		8864
+	689077797	Them Song	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\Them Song_9452F465.wem		\Interactive Music Hierarchy\Default Work Unit\game_music_playlist\game_level_music_segment\Them Song		18358336
+	764732898	1	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\1_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\tile_drop\1		30052
+	873960749	2	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\2_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\tile_drop\2		27716
+	891577152	special_match	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\electric zap_01_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\special_match		69184
+	913936072	match	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\Whop_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\match		53818
+	1067860185	letsgoshoping	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\letsgoshoping_9452F465.wem		\Interactive Music Hierarchy\Default Work Unit\menu_music_playlist\main_menu_music_segment\letsgoshoping		16026688
+	1069861506	move_tile	Y:\Desktop\Final_Project_02_Wwise\Wwise Project 02 Template\.cache\Mac\SFX\Object Pick Sound_53CEE377.wem		\Actor-Mixer Hierarchy\Default Work Unit\move_tile		26616
+

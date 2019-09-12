@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad5daab3a6664b0a8e25032b0f70e1f, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: 
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{DE11DE7B-DFDC-44FD-8414-70E961FC6780}'
+    m_lastTimePsrt1: -931244672
+    m_lastTimePart2: -1999291417
+    List:
+    - Name: level_01
+      Path: Default Work Unit/level_01
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_01
+        ObjectType: 3
+      ID: 987635873
+      Guid: 46332fd06f7dea4292be558e98b45c22
+      maxAttenuation: 0
+    - Name: level_02
+      Path: Default Work Unit/level_02
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_02
+        ObjectType: 3
+      ID: 987635874
+      Guid: 2b6df0e7af63ee43a22f52fc7ce05137
+      maxAttenuation: 0
+    - Name: level_03
+      Path: Default Work Unit/level_03
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_03
+        ObjectType: 3
+      ID: 987635875
+      Guid: 49b843b7cc2ad84886deeafd937ea1bd
+      maxAttenuation: 0
+    - Name: level_04
+      Path: Default Work Unit/level_04
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_04
+        ObjectType: 3
+      ID: 987635876
+      Guid: deab4b921b57f3418d82b6b82cbe33d7
+      maxAttenuation: 0
+    - Name: level_05
+      Path: Default Work Unit/level_05
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_05
+        ObjectType: 3
+      ID: 987635877
+      Guid: c921c7a5bb8ced43818a9dddeec5a483
+      maxAttenuation: 0
+    - Name: level_06
+      Path: Default Work Unit/level_06
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_06
+        ObjectType: 3
+      ID: 987635878
+      Guid: 885e7fce8cf4844b8efac86a5b718242
+      maxAttenuation: 0
+    - Name: level_07
+      Path: Default Work Unit/level_07
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_07
+        ObjectType: 3
+      ID: 987635879
+      Guid: 7987168367e4e446819cbec760a2c8cc
+      maxAttenuation: 0
+    - Name: level_08
+      Path: Default Work Unit/level_08
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_08
+        ObjectType: 3
+      ID: 987635880
+      Guid: b19e359ce153fe44abf5ad18b9ea81c4
+      maxAttenuation: 0
+    - Name: level_09
+      Path: Default Work Unit/level_09
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: level_09
+        ObjectType: 3
+      ID: 987635881
+      Guid: 859a8cb7c1e1334e96d0c1d27d222290
+      maxAttenuation: 0
+    - Name: mx_game_end
+      Path: Default Work Unit/mx_game_end
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_game_end
+        ObjectType: 3
+      ID: 1542319017
+      Guid: af1f7e5d5f9fc14c858ee9737124e5e9
+      maxAttenuation: 0
+    - Name: mx_main_menu
+      Path: Default Work Unit/mx_main_menu
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_main_menu
+        ObjectType: 3
+      ID: -1600285652
+      Guid: 39d731e3a56bc444bbf058819022ab56
+      maxAttenuation: 0
+    - Name: mx_start_game
+      Path: Default Work Unit/mx_start_game
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: mx_start_game
+        ObjectType: 3
+      ID: -1117448404
+      Guid: c356e76f51c24f4b917cba8389317d5f
+      maxAttenuation: 0
+    - Name: reset_time_remaining
+      Path: Default Work Unit/reset_time_remaining
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: reset_time_remaining
+        ObjectType: 3
+      ID: 1754383523
+      Guid: 1993ce7c0a3449469393e384092d35b4
+      maxAttenuation: 0
+    - Name: sfx_big_swipe
+      Path: Default Work Unit/sfx_big_swipe
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_big_swipe
+        ObjectType: 3
+      ID: 1241545894
+      Guid: 79f54f4cb7cfe44992ac1a45d6a471df
+      maxAttenuation: 0
+    - Name: sfx_clock_tick
+      Path: Default Work Unit/sfx_clock_tick
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_clock_tick
+        ObjectType: 3
+      ID: 2131465915
+      Guid: 23b321ef47773047bd74e405a9e13296
+      maxAttenuation: 0
+    - Name: sfx_hint
+      Path: Default Work Unit/sfx_hint
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_hint
+        ObjectType: 3
+      ID: -765268070
+      Guid: 6315971f5a826c40b74ed5980e1ee8a3
+      maxAttenuation: 0
+    - Name: sfx_horizontal_swipe
+      Path: Default Work Unit/sfx_horizontal_swipe
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_horizontal_swipe
+        ObjectType: 3
+      ID: -1526404338
+      Guid: bde0d1817f64f64ca935adcfc5c49b81
+      maxAttenuation: 0
+    - Name: sfx_incorrect_move
+      Path: Default Work Unit/sfx_incorrect_move
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_incorrect_move
+        ObjectType: 3
+      ID: 386533466
+      Guid: 6ef0ecee8d277e4dafa1eefa58eee526
+      maxAttenuation: 0
+    - Name: sfx_match
+      Path: Default Work Unit/sfx_match
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_match
+        ObjectType: 3
+      ID: 1573519608
+      Guid: ecd07516dd1499498d766bae3a6b9607
+      maxAttenuation: 0
+    - Name: sfx_move_tile
+      Path: Default Work Unit/sfx_move_tile
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_move_tile
+        ObjectType: 3
+      ID: 2104042053
+      Guid: f13477f7a2b7434cb2da15e0bd3b09ac
+      maxAttenuation: 0
+    - Name: sfx_new_candy
+      Path: Default Work Unit/sfx_new_candy
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_new_candy
+        ObjectType: 3
+      ID: -1100372581
+      Guid: bb979ab96c9e324a9d24785d62db35de
+      maxAttenuation: 0
+    - Name: sfx_special_match
+      Path: Default Work Unit/sfx_special_match
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_special_match
+        ObjectType: 3
+      ID: 71291836
+      Guid: 42c11ae347d3264990fba53e45ee7f41
+      maxAttenuation: 0
+    - Name: sfx_tile_drop
+      Path: Default Work Unit/sfx_tile_drop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_tile_drop
+        ObjectType: 3
+      ID: 2095104675
+      Guid: bbbe9de5fe659347b11211d2a508bcb1
+      maxAttenuation: 0
+    - Name: sfx_vertical_swipe
+      Path: Default Work Unit/sfx_vertical_swipe
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: sfx_vertical_swipe
+        ObjectType: 3
+      ID: -1608393264
+      Guid: f8d8fd438167a0469f9ef1b386ced592
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{FC5E3CBC-051A-4AEB-BEAC-DBC3AB1C6665}'
+    m_lastTimePsrt1: 1876523904
+    m_lastTimePart2: -1999313347
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{140D9BA2-B50A-4902-A52A-0CCA21BAA27A}'
+    m_lastTimePsrt1: 1876523904
+    m_lastTimePart2: -1999313347
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{E7D6FC1B-3483-4DAA-A6F6-9C71290E335B}'
+    m_lastTimePsrt1: 1876523904
+    m_lastTimePart2: -1999313347
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{C92A1990-D68B-4F63-8008-1E04EF8D4115}'
+    m_lastTimePsrt1: 1093194240
+    m_lastTimePart2: -1999294338
+    List:
+    - Name: Game_SoundBank
+      Path: Default Work Unit/Game_SoundBank
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_SoundBank
+        ObjectType: 7
+      ID: -668811691
+      Guid: b6bf623081d5e641828d9a1c280884f6
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{A3665AC0-E497-4438-949D-CFAAF145E929}'
+    m_lastTimePsrt1: 1876523904
+    m_lastTimePart2: -1999313347
+    List:
+    - Name: percentage_of_time_left
+      Path: Default Work Unit/percentage_of_time_left
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: percentage_of_time_left
+        ObjectType: 13
+      ID: 2058349223
+      Guid: bdcc69ffb2bf284a94c32fd1aedec288
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{D8DA1201-8999-4C75-AB72-2BE535EAAE98}'
+    m_lastTimePsrt1: 1876523904
+    m_lastTimePart2: -1999313347
+    List: []
+  ExpandedItems: []
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio/GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  preparePoolSize: 0
+  memoryCutoffThreshold: 0.95
+  callbackManagerBufferSize: 4

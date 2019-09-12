@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="125">
+	<RootPaths>
+		<ProjectRoot>/Users/msweet/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_02_Wwise/Wwise Project 02 Template/</ProjectRoot>
+		<SourceFilesRoot>/Users/msweet/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_02_Wwise/Wwise Project 02 Template/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/msweet/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_02_Wwise/Wwise Project 02 Template/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/msweet/Library/Application Support/Wwise2017/Bottles/wwise/dosdevices/y:/Desktop/Final_Project_02_Wwise/Wwise Project 02 Template/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3626155605" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_SoundBank</ObjectPath>
+			<ShortName>Game_SoundBank</ShortName>
+			<Path>Game_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="987635873" Name="level_01" ObjectPath="\Events\Default Work Unit\level_01"/>
+				<Event Id="987635874" Name="level_02" ObjectPath="\Events\Default Work Unit\level_02"/>
+				<Event Id="987635875" Name="level_03" ObjectPath="\Events\Default Work Unit\level_03"/>
+				<Event Id="987635876" Name="level_04" ObjectPath="\Events\Default Work Unit\level_04"/>
+				<Event Id="987635877" Name="level_05" ObjectPath="\Events\Default Work Unit\level_05"/>
+				<Event Id="987635878" Name="level_06" ObjectPath="\Events\Default Work Unit\level_06"/>
+				<Event Id="987635879" Name="level_07" ObjectPath="\Events\Default Work Unit\level_07"/>
+				<Event Id="987635880" Name="level_08" ObjectPath="\Events\Default Work Unit\level_08"/>
+				<Event Id="987635881" Name="level_09" ObjectPath="\Events\Default Work Unit\level_09"/>
+				<Event Id="1542319017" Name="mx_game_end" ObjectPath="\Events\Default Work Unit\mx_game_end"/>
+				<Event Id="2694681644" Name="mx_main_menu" ObjectPath="\Events\Default Work Unit\mx_main_menu"/>
+				<Event Id="3177518892" Name="mx_start_game" ObjectPath="\Events\Default Work Unit\mx_start_game"/>
+				<Event Id="1754383523" Name="reset_time_remaining" ObjectPath="\Events\Default Work Unit\reset_time_remaining"/>
+				<Event Id="1241545894" Name="sfx_big_swipe" ObjectPath="\Events\Default Work Unit\sfx_big_swipe"/>
+				<Event Id="2131465915" Name="sfx_clock_tick" ObjectPath="\Events\Default Work Unit\sfx_clock_tick"/>
+				<Event Id="3529699226" Name="sfx_hint" ObjectPath="\Events\Default Work Unit\sfx_hint"/>
+				<Event Id="2768562958" Name="sfx_horizontal_swipe" ObjectPath="\Events\Default Work Unit\sfx_horizontal_swipe"/>
+				<Event Id="386533466" Name="sfx_incorrect_move" ObjectPath="\Events\Default Work Unit\sfx_incorrect_move"/>
+				<Event Id="1573519608" Name="sfx_match" ObjectPath="\Events\Default Work Unit\sfx_match"/>
+				<Event Id="2104042053" Name="sfx_move_tile" ObjectPath="\Events\Default Work Unit\sfx_move_tile"/>
+				<Event Id="3194594715" Name="sfx_new_candy" ObjectPath="\Events\Default Work Unit\sfx_new_candy"/>
+				<Event Id="71291836" Name="sfx_special_match" ObjectPath="\Events\Default Work Unit\sfx_special_match"/>
+				<Event Id="2095104675" Name="sfx_tile_drop" ObjectPath="\Events\Default Work Unit\sfx_tile_drop"/>
+				<Event Id="2686574032" Name="sfx_vertical_swipe" ObjectPath="\Events\Default Work Unit\sfx_vertical_swipe"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="124010099" Language="SFX">
+					<ShortName>3.wav</ShortName>
+					<Path>SFX/3_53CEE377.wem</Path>
+				</File>
+				<File Id="376810140" Language="SFX">
+					<ShortName>Wrong Move.wav</ShortName>
+					<Path>SFX/Wrong Move_53CEE377.wem</Path>
+				</File>
+				<File Id="470812874" Language="SFX">
+					<ShortName>loop_end.wav</ShortName>
+					<Path>SFX/loop_end_9452F465.wem</Path>
+				</File>
+				<File Id="593276069" Language="SFX">
+					<ShortName>Clock Tick.wav</ShortName>
+					<Path>SFX/Clock Tick_53CEE377.wem</Path>
+				</File>
+				<File Id="689077797" Language="SFX">
+					<ShortName>Them Song.wav</ShortName>
+					<Path>SFX/Them Song_9452F465.wem</Path>
+				</File>
+				<File Id="764732898" Language="SFX">
+					<ShortName>1.wav</ShortName>
+					<Path>SFX/1_53CEE377.wem</Path>
+				</File>
+				<File Id="873960749" Language="SFX">
+					<ShortName>2.wav</ShortName>
+					<Path>SFX/2_53CEE377.wem</Path>
+				</File>
+				<File Id="891577152" Language="SFX">
+					<ShortName>electric zap_01.wav</ShortName>
+					<Path>SFX/electric zap_01_53CEE377.wem</Path>
+				</File>
+				<File Id="913936072" Language="SFX">
+					<ShortName>Whop.wav</ShortName>
+					<Path>SFX/Whop_53CEE377.wem</Path>
+				</File>
+				<File Id="1067860185" Language="SFX">
+					<ShortName>letsgoshoping.wav</ShortName>
+					<Path>SFX/letsgoshoping_9452F465.wem</Path>
+				</File>
+				<File Id="1069861506" Language="SFX">
+					<ShortName>Object Pick Sound.wav</ShortName>
+					<Path>SFX/Object Pick Sound_53CEE377.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

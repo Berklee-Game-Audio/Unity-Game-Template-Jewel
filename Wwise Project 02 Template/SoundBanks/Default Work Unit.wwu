@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C92A1990-D68B-4F63-8008-1E04EF8D4115}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C92A1990-D68B-4F63-8008-1E04EF8D4115}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Game_SoundBank" ID="{3062BFB6-D581-41E6-828D-9A1C280884F6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="sfx_hint" ID="{1F971563-825A-406C-B74E-D5980E1EE8A3}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_04" ID="{924BABDE-571B-41F3-8D82-B6B82CBE33D7}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_01" ID="{D02F3346-7D6F-42EA-92BE-558E98B45C22}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_05" ID="{A5C721C9-8CBB-43ED-818A-9DDDEEC5A483}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_02" ID="{E7F06D2B-63AF-43EE-A22F-52FC7CE05137}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="mx_main_menu" ID="{E331D739-6BA5-44C4-BBF0-58819022AB56}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_08" ID="{9C359EB1-53E1-44FE-ABF5-AD18B9EA81C4}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="reset_time_remaining" ID="{7CCE9319-340A-4649-9393-E384092D35B4}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_vertical_swipe" ID="{43FDD8F8-6781-46A0-9F9E-F1B386CED592}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_07" ID="{83168779-E467-46E4-819C-BEC760A2C8CC}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_clock_tick" ID="{EF21B323-7747-4730-BD74-E405A9E13296}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_tile_drop" ID="{E59DBEBB-65FE-4793-B112-11D2A508BCB1}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_03" ID="{B743B849-2ACC-48D8-86DE-EAFD937EA1BD}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_special_match" ID="{E31AC142-D347-4926-90FB-A53E45EE7F41}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_match" ID="{1675D0EC-14DD-4999-8D76-6BAE3A6B9607}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_big_swipe" ID="{4C4FF579-CFB7-49E4-92AC-1A45D6A471DF}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_new_candy" ID="{B99A97BB-9E6C-4A32-9D24-785D62DB35DE}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="mx_start_game" ID="{6FE756C3-C251-4B4F-917C-BA8389317D5F}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_06" ID="{CE7F5E88-F48C-4B84-8EFA-C86A5B718242}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_move_tile" ID="{F77734F1-B7A2-4C43-B2DA-15E0BD3B09AC}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="mx_game_end" ID="{5D7E1FAF-9F5F-4CC1-858E-E9737124E5E9}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_horizontal_swipe" ID="{81D1E0BD-647F-4CF6-A935-ADCFC5C49B81}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="sfx_incorrect_move" ID="{EEECF06E-278D-4D7E-AFA1-EEFA58EEE526}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="level_09" ID="{B78C9A85-E1C1-4E33-96D0-C1D27D222290}" WorkUnitID="{DE11DE7B-DFDC-44FD-8414-70E961FC6780}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

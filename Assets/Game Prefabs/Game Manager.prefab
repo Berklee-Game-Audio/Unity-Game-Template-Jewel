@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 11400002}
+  - component: {fileID: 11400004}
+  - component: {fileID: 11400006}
+  - component: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9378e3f72bd617c48ba90d79fcda31fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playingObjectPrefabs:
+  - {fileID: 100000, guid: bbe5fcabf1f78b34a8fa8fd3076e3073, type: 2}
+  - {fileID: 100000, guid: 6888bc9ed3f6083419c83fa143c8f51c, type: 2}
+  - {fileID: 100000, guid: aeec48113e868964d91f6c68f4a7789f, type: 2}
+  - {fileID: 100000, guid: 5a7399833d9a6ba418cbe9adbe9437e2, type: 2}
+  - {fileID: 100000, guid: e20ea6d0fea15aa49ad3420ac7d232a7, type: 2}
+  - {fileID: 100000, guid: 0b81749ce1f152d4d8f3aa5b1405e173, type: 2}
+  horizontalPrefabs:
+  - {fileID: 100000, guid: 3f4ea314c3dfe42478f83760ec6c6a13, type: 2}
+  - {fileID: 100000, guid: c39886516df322d4286f259604cbf3b8, type: 2}
+  - {fileID: 100000, guid: 7f69fbb2266962d45a34bded9ec6df80, type: 2}
+  - {fileID: 100000, guid: 6d14dba79531fd347b17151cf9346c0b, type: 2}
+  - {fileID: 100000, guid: 95b087f134d64f64fa60a322402432db, type: 2}
+  - {fileID: 100000, guid: 005e597ec40dab94193b1a5f13c53aa4, type: 2}
+  verticalPrefabs:
+  - {fileID: 100000, guid: 17e716e2ac10beb44a7d6332c896f834, type: 2}
+  - {fileID: 100000, guid: 169ff43b9941c2041897b00c2e1ea1c7, type: 2}
+  - {fileID: 100000, guid: 99ed29aa3a0d0f140b0e549578c683f9, type: 2}
+  - {fileID: 100000, guid: 1ed00d6ecdec7624a8ffc452f9571bda, type: 2}
+  - {fileID: 100000, guid: 0cbd08129a27a7d479633e78e99603ca, type: 2}
+  - {fileID: 100000, guid: 6d58acc79d09ccd4d825ee9803575e03, type: 2}
+  universalPlayingObjectPrefab: {fileID: 100000, guid: 417816e5cc462f64d94137a0e08abfd7,
+    type: 2}
+  jellyPrefab:
+  - {fileID: 100000, guid: cf7ca1f6f2615324e9688102984d2334, type: 2}
+  - {fileID: 100000, guid: 71dbd1b6db1041a43bdd8a9a57fe0ffa, type: 2}
+  gapBetweenObjects: 0.65
+  swappingTime: 0.8
+  objectFallingDuration: 1
+  totalNoOfJellies: 0
+  objectfallingEase: 23
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06988e0cef661a947894574742dd78fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.2
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66743c0db7e8b7345a9885720ddccf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06c94d8b096554c458fc837ec3c1601c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a6d0ca135aebc4a8ad42f119978f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
